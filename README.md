@@ -1,28 +1,8 @@
 # perfect-maze-generation
 Maze generation in C using bactracking algorithm
 
-Subject:
+Usage:
 
-You must have 2 folders : 
-* solver with a binary named “solver” in it
-* generator with binary named “generator” in it.
-Each folder must contain a Makefile compiling the binary and a Makefile at the root must compile all binaries.
-
-solver generator Makefile tournament
-
-./ solver : solver
-
-./ generator : generator
-
-./ tournament : solver generator
-
-The solver in “tournament” will be used for the tournament. Each solver must be able to function as follows:
 ````
-./solver maze.txt
+./generator x y 
 ````
-
-and print the solved maze on the standard output. If there is no solution you must print “no solution found” on the same output. The generator must function as follows:
-````
-./generator x y [perfect]
-````
-As the perfect argument is optional, the default generation will be an imperfect maze.
