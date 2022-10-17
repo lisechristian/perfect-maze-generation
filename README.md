@@ -14,11 +14,16 @@ solver generator Makefile tournament
 ./ tournament : solver generator
 
 The solver in “tournament” will be used for the tournament. Each solver must be able to function as follows:
-
-∼./solver maze.txt
+````
+```
+./solver maze.txt
+```
+````
 
 and print the solved maze on the standard output. If there is no solution you must print “no solution found” on the same output. The generator must function as follows:
-
-∼ ./generator x y [perfect]
-
+````
+```
+./generator x y [perfect]
+```
+````
 As the perfect argument is optional, the default generation will be an imperfect maze.
