@@ -3,7 +3,10 @@ Maze generation in C using bactracking algorithm
 
 Subject:
 
-You must have 3 folders : solver with a binary named “solver” in it, generator with binary named “generator” in it and a folder tournament with the binaries that you want to enroll for the tournament. Each folder must contain a Makefile compiling the binary and a Makefile at the root must compile all binaries.
+You must have 2 folders : 
+* solver with a binary named “solver” in it
+* generator with binary named “generator” in it.
+Each folder must contain a Makefile compiling the binary and a Makefile at the root must compile all binaries.
 
 solver generator Makefile tournament
 
